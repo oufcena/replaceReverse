@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Reverse replace()</h1>
+
+<script>
+/* 
+  Reverse replace 
+  txt = txt.replace('o', '*', -1);
+*/
+
+var txt = 'Hello World!';
+
+var x = txt.lastIndexOf('o');
+txt = txt.slice(0, x) + '*' + txt.slice(x+1);
+
+document.body.innerHTML += txt;
+
+/* 
+  replace(txt, old, new, switch) {
+    if(switch) {
+      var x = txt.lastIndexOf(old);
+      txt = txt.slice(0, x) + new + txt.slice(x+1);
+    } else {
+      txt = txt.replace(old, new);
+    }
+  } replace(txt, 'o', '*', -1);
+*/
+</script>
+
+</body>
+</html>
+
+
