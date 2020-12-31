@@ -1,3 +1,3 @@
 # replaceReverse
 
-[Preview](https://oufcena.github.io/replaceReverse/)
+[Preview](https://oufcena.github.io/replaceReverse/replaceReverse.html)
